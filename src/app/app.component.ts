@@ -15,7 +15,7 @@ import 'rxjs/add/operator/mergeMap';
 })
 
 export class AppComponent implements OnInit{
-  title = 'Vitican Partners';
+  title = 'Top Service';
   constructor(private spinner: NgxSpinnerService,
               private router: Router,
               private activatedRoute: ActivatedRoute,
