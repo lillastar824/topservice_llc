@@ -1,0 +1,193 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <app-header></app-header>
+    </div>
+  </div>
+
+  <div class="row">
+    <video
+      autoplay
+      muted
+      loop
+      preload="true"
+      id="myVideo"
+      style="     width: 100%;
+            margin-top: 1%;"
+    >
+      <source src="../../assets/videos/5.mp4" type="video/mp4" />
+    </video>
+  </div>
+
+  <div class="row" style="margin: 10%;">
+    <div class="col-lg-12 col-md-12 col-sm-12">
+      <div class="head">
+        <p
+          style="font-size: 43px;
+                  font-family: sans-serif;
+                  font-weight: bold;
+                  margin-top: 5%;
+                  text-align: center;"
+        >
+          Ginko is the one tap contact exchange app!
+        </p>
+      </div>
+      <p
+        style="font-size: 21px;
+                margin-top: 5%;"
+      >
+        Exchanging contact information has never been faster or easier. To
+        exchange contact information, 2 or more users simply hold the ‘Ginko Me’
+        button and select what information they would like to share with each
+        other. It’s that simple! Never think about updating your contacts’
+        information again, as the app does this automatically for you whenever
+        there is a contact profile change.
+      </p>
+    </div>
+    <div class="col-lg-12">
+      <img
+        src="../../assets/images/Image_1 (1).png"
+        style="    width: 100%;"
+        data-aos="fade-down"
+      />
+    </div>
+    <div class="col-lg-12">
+      <img
+        src="../../assets/images/Image_1 (2).png"
+        style="    width: 100%;     margin-bottom: 9%;"
+        data-aos="fade-down"
+      />
+    </div>
+    <div class="col-lg-12">
+      <p
+        style="    font-size: 43px;
+                font-family: sans-serif;
+                font-weight: bold;
+                margin-top: -2%;
+                text-align: center;"
+      >
+        Technologies
+      </p>
+      <p
+        style="font-size: 21px;
+                margin-top: 5%;
+                text-align: center;
+                margin-bottom: 7%;"
+      >
+        Android Studio, WebRTC, Google Map V3, GPS Tracking, Firebase
+      </p>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="ginko1">
+        <img
+          src="../../assets/images/Ginko1_Android.PNG"
+          style="    width: 109%;
+                    margin-top: 3%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="ginko2">
+        <img
+          src="../../assets/images/Ginko2_Android.PNG"
+          style="     width: 116%;
+                  margin-top: 8%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="ginko3">
+        <img
+          src="../../assets/images/Ginko3_iPhone.PNG"
+          style="    width: 100%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="ginko4">
+        <img
+          src="../../assets/images/Ginko4_iPhone.PNG"
+          style="    width: 100%;"
+        />
+      </div>
+    </div>
+
+    <div class="col-lg-12">
+      <div class="sufferlogo" style="text-align: center;">
+        <a href="https://apps.apple.com/us/app/ginko/id1029413955">
+          <img
+            src="../../assets/images/logo (5).png"
+            style="border-radius: 10px;
+          margin-top: 6%;
+          margin-bottom: 6%;"
+          />
+        </a>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <p
+        style="font-size: 20px;
+                margin-top: 5%;"
+      >
+        Ginko Me - Scan for contacts in your nearby area, exchange info with the
+        touch of a button and have it automatically synced into your contacts.
+      </p>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="next" style="">
+        <a href="/diet" style="text-decoration:none">
+          <p
+            style="    font-size: 200%;
+      font-family: sans-serif;
+      font-weight: bold;
+      color: black;
+      text-align: center;"
+          >
+            Next project
+          </p>
+        </a>
+      </div>
+      <a class="gotopbtn" (click)="onSave($event)" href="#">
+        <img
+          src="../../assets/images/scroll.png"
+          style="width: 6%;
+                                margin-left: 93%;"
+        />
+      </a>
+    </div>
+  </div>
+
+  <div class="menu">
+    <div class="row header p-5 mt-50">
+      <div class="col-lg-6 col-sm-6 text-left">
+        <div class="col-lg-6 col-sm-6 text-right">
+          <button
+            class="btn font-2 btn-menu-close mr-5"
+            (click)="handleMenuCloseClick()"
+          >
+            <img class="icon" src="../../assets/icons/close.png" />
+          </button>
+        </div>
+      </div>
+      <ul
+        class=""
+        style="margin-left: -9%;
+    margin-top: 6%;"
+      >
+        <li>
+          <a class="font-2" href="/">HOME </a>
+        </li>
+        <!-- <li><a class="font-2" href="/portfolio">GINKO</a></li> -->
+        <!-- <li><a class="font-2" href="/cupid">CUPID</a></li>
+          <li><a class="font-2" href="/diet">DIET</a></li> -->
+        <li><a class="font-2" href="/suffer">PORTFOLIO</a></li>
+        <!-- <li><a class="font-2" href="/bolt">BOLT</a></li>
+          <li><a class="font-2" href="/lyrical">Lyrical</a></li> -->
+        <li><a class="font-2" href="/get-quote">GET A QUOTE </a></li>
+        <li><a class="font-2" href="/contact">CONTACT US</a></li>
+      </ul>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,127 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-12" style="margin-right: 10%;">
+      <app-header></app-header>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="img">
+        <img
+          src="../../assets/images/lyrical.jpg"
+          style="width: 100%;
+          margin-top: 4%;"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="    margin: 5%;">
+    <div class="col-lg-3 col-md-3 col-sm-6">
+      <div class="lyri1">
+        <img
+          src="../../assets/images/214 (1).PNG"
+          style="width: 90%; margin-top: 58%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-3 col-sm-6">
+      <div class="lyri2">
+        <img
+          src="../../assets/images/214 (2).PNG"
+          style="width: 90%;margin-top: 58%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-3 col-sm-6">
+      <div class="lyri3">
+        <img
+          src="../../assets/images/214 (3).PNG"
+          style="width: 90%; margin-top: 58%;"
+        />
+      </div>
+    </div>
+    <div class="col-lg-3  col-md-3 col-sm-6">
+      <div class="lyri4">
+        <img
+          src="../../assets/images/214 (4).PNG"
+          style="width: 90%;margin-top: 58%;"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div
+      class="col-lg-12"
+      style="background-color: #ffc4e9;
+    margin-top: 12%;"
+    >
+      <div class="lyricallogo" style="text-align: center;">
+        <a href="https://lyricallemonade.com/">
+          <img
+            src="../../assets/images/logo (1).png"
+            style="margin-top: 6%;
+                    margin-bottom: 6%;
+                    border-radius: 12px;"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="next">
+        <a href="/cupid" style="text-decoration: none;">
+          <p
+            style="    font-size: 200%;
+                        font-family: sans-serif;
+                        font-weight: bold;
+                        margin-top: 8%;
+                        text-align: center;
+                        color: black;"
+          >
+            Next project
+          </p>
+        </a>
+      </div>
+      <a class="gotopbtn" (click)="onSave($event)" href="#">
+        <img
+          src="../../assets/images/scroll.png"
+          style="width: 6%;
+                          margin-left: 93%;"
+        />
+      </a>
+    </div>
+  </div>
+
+  <div class="menu">
+    <div class="row header p-5 mt-4">
+      <div class="col-lg-6 col-sm-6 text-left">
+        <img class="logo ml-5" src="../../assets/images/logo-dark.png" />
+      </div>
+      <div class="col-lg-6 col-sm-6 text-right">
+        <button
+          class="btn font-2 btn-menu-close mr-5"
+          (click)="handleMenuCloseClick()"
+        >
+          <img class="icon" src="../../assets/icons/close.png" />
+        </button>
+      </div>
+    </div>
+    <ul class="">
+      <li>
+        <a class="font-2" href="/">HOME </a>
+      </li>
+      <!-- <li><a class="font-2" href="/portfolio">GINKO</a></li> -->
+      <!-- <li><a class="font-2" href="/cupid">CUPID</a></li>
+          <li><a class="font-2" href="/diet">DIET</a></li> -->
+      <li><a class="font-2" href="/suffer">PORTFOLIO</a></li>
+      <!-- <li><a class="font-2" href="/bolt">BOLT</a></li>
+          <li><a class="font-2" href="/lyrical">Lyrical</a></li> -->
+      <li><a class="font-2" href="/get-quote">GET A QUOTE </a></li>
+      <li><a class="font-2" href="/contact">CONTACT US</a></li>
+    </ul>
+  </div>
+</div>
