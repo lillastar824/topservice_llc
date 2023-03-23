@@ -28,10 +28,10 @@ export class GetQuoteComponent implements OnInit {
       Host : 'smtp.mailtrap.io',
       Username : 'faf0bceaef7351',
       Password : '609a1da089e057',
-      To : 'maikap.samir14@gmail.com',
-      From : 'maikap.samir@gmail.com',
+      To : 'jackyjin824@gmail.com',
+      From : 'marianbx824@gmail.com',
       Subject : 'this.model.subject',
-      Body : 'wfewfwefwewef',
+      Body : 'this.model.message',
     }).then( message => { alert(message); });
   }
 
